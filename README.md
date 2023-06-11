@@ -1,4 +1,4 @@
-# Control Algorithms
+# Models, Algorithms and Simulation
 This repository contains design and implementation of following algorithms:
 1. Adaptive model identification of a separately excited DC motor
 2. Classical (Root-Locus based) position control of magnetic levitation system

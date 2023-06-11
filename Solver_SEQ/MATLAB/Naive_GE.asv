@@ -1,0 +1,11 @@
+function X=Naive_GE(A, B)
+    for k=1:n-1
+        for i=k+1:n
+            factor=A(i, k)/A(k, k);
+            for j=k+1:n
+                A(i, j)=A(i, j)-factor*A(k, j);
+            end
+            b(i)=b(i)-factor*b(k);
+        end
+    end
+    en

@@ -1,0 +1,17 @@
+﻿Build started 1/9/2019 3:54:44 PM.
+     1>Project "F:\Projects\Exfiltration\Data_Exfiltration\Data_Exfiltration\Data_Exfiltration.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D CODE_ANALYSIS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet transmit32.c
+         transmit32.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\Exfiltration\Data_Exfiltration\x64\Debug\Data_Exfiltration.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Projects\Exfiltration\Data_Exfiltration\x64\Debug\Data_Exfiltration.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\Exfiltration\Data_Exfiltration\x64\Debug\Data_Exfiltration.lib" /MACHINE:X64 x64\Debug\transmit32.obj
+         Data_Exfiltration.vcxproj -> F:\Projects\Exfiltration\Data_Exfiltration\x64\Debug\Data_Exfiltration.exe
+     1>f:\projects\exfiltration\data_exfiltration\data_exfiltration\transmit32.c(35): warning C6011: Dereferencing NULL pointer 'buffer'. 
+     1>f:\projects\exfiltration\data_exfiltration\data_exfiltration\transmit32.c(41): warning C6011: Dereferencing NULL pointer 'buffer+i'. See line 35 for an earlier location where this can occur
+     1>f:\projects\exfiltration\data_exfiltration\data_exfiltration\transmit32.c(116): warning C6031: Return value ignored: 'getchar'.
+     1>f:\projects\exfiltration\data_exfiltration\data_exfiltration\transmit32.c(119): warning C6031: Return value ignored: 'getchar'.
+     1>Done Building Project "F:\Projects\Exfiltration\Data_Exfiltration\Data_Exfiltration\Data_Exfiltration.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.32
